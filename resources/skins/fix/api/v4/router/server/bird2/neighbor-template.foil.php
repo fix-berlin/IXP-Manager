@@ -55,6 +55,7 @@ template bgp tb_rsclient {
 
     <?= $t->ipproto ?> {
         export all;
+        add paths tx;
     };
 
     rs client;
