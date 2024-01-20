@@ -10,10 +10,10 @@
 ;; Generated: <?= now()->format( 'Y-m-d H:i:s' ) . "\n" ?>
 ;;
 <?php foreach( $t->arpa as $a ): ?>
-<?php if (str_ends_with($a['hostname'], ".peer.fix-berlin.net")): ?>
-<?php if ($t->protocol == 4): ?>
+<?php if( str_ends_with($a['hostname'], ".peer.fix-berlin.net") ): ?>
+<?php if( $t->protocol == 4 ): ?>
 <?= trim($a['hostname']) ?>.    IN      A     <?= trim($a['address']) ?>
-<?php elseif ($t->protocol == 6): ?>
+<?php elseif( $t->protocol == 6 ): ?>
 <?= trim($a['hostname']) ?>.    IN      AAAA  <?= trim($a['address']) ?>
 <?php else: ?>
 ;; Unknown protocol '<?= $t->protocol ?>', record skipped
