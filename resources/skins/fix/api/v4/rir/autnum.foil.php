@@ -14,6 +14,7 @@ export:         to   AS<?= $asn ?> announce AS198136:AS-RS-PEERS
 admin-c:        SN9448-RIPE
 tech-c:         SN9448-RIPE
 status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
 mnt-by:         FIX-AUTO-MNT
 mnt-by:         SEPC-MNT
 source:         RIPE
