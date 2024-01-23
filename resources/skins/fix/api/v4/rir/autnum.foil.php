@@ -1,7 +1,7 @@
 password: <?= config('ixp_api.rir.password') ?>
 
 
-aut-num:        198136
+aut-num:        AS198136
 as-name:        FIX-RS
 descr:          FIX Berlin Routeservers
 org:            ORG-SEPC3-RIPE
